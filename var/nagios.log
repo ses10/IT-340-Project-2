@@ -1,0 +1,681 @@
+[1480779016] Nagios 4.1.1 starting... (PID=6440)
+[1480779016] Local time is Sat Dec 03 10:30:16 EST 2016
+[1480779016] LOG VERSION: 2.0
+[1480779016] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480779016] qh: core query handler registered
+[1480779016] nerd: Channel hostchecks registered successfully
+[1480779016] nerd: Channel servicechecks registered successfully
+[1480779016] nerd: Channel opathchecks registered successfully
+[1480779016] nerd: Fully initialized and ready to rock!
+[1480779016] wproc: Successfully registered manager as @wproc with query handler
+[1480779016] wproc: Registry request: name=Core Worker 6444;pid=6444
+[1480779016] wproc: Registry request: name=Core Worker 6443;pid=6443
+[1480779016] wproc: Registry request: name=Core Worker 6442;pid=6442
+[1480779016] wproc: Registry request: name=Core Worker 6441;pid=6441
+[1480779017] Successfully launched command file worker with pid 6445
+[1480779241] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 22: Connection refused
+[1480779301] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 22: Connection refused
+[1480779361] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;3;connect to address 127.0.0.1 and port 22: Connection refused
+[1480779421] SERVICE ALERT: localhost;SSH;CRITICAL;HARD;4;connect to address 127.0.0.1 and port 22: Connection refused
+[1480779703] Caught SIGTERM, shutting down...
+[1480779703] Caught SIGTERM, shutting down...
+[1480779703] Successfully shutdown... (PID=6440)
+[1480779703] Event broker module 'NERD' deinitialized successfully.
+[1480779703] Caught SIGTERM, shutting down...
+[1480779703] Nagios 4.1.1 starting... (PID=6744)
+[1480779703] Local time is Sat Dec 03 10:41:43 EST 2016
+[1480779703] LOG VERSION: 2.0
+[1480779703] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480779703] qh: core query handler registered
+[1480779703] nerd: Channel hostchecks registered successfully
+[1480779703] nerd: Channel servicechecks registered successfully
+[1480779703] nerd: Channel opathchecks registered successfully
+[1480779703] nerd: Fully initialized and ready to rock!
+[1480779703] wproc: Successfully registered manager as @wproc with query handler
+[1480779703] wproc: Registry request: name=Core Worker 6747;pid=6747
+[1480779703] wproc: Registry request: name=Core Worker 6748;pid=6748
+[1480779703] wproc: Registry request: name=Core Worker 6746;pid=6746
+[1480779703] wproc: Registry request: name=Core Worker 6745;pid=6745
+[1480779703] Error: Could not open config directory '/uss/local/nagios/etc/objects' for reading.
+[1480779703] Bailing out due to one or more errors encountered in the configuration files. Run Nagios from the command line with the -v option to verify your config before restarting. (PID=6744)
+[1480779703] Event broker module 'NERD' deinitialized successfully.
+[1480779832] Nagios 4.1.1 starting... (PID=6805)
+[1480779832] Local time is Sat Dec 03 10:43:52 EST 2016
+[1480779832] LOG VERSION: 2.0
+[1480779832] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480779832] qh: core query handler registered
+[1480779832] nerd: Channel hostchecks registered successfully
+[1480779832] nerd: Channel servicechecks registered successfully
+[1480779832] nerd: Channel opathchecks registered successfully
+[1480779832] nerd: Fully initialized and ready to rock!
+[1480779832] wproc: Successfully registered manager as @wproc with query handler
+[1480779832] wproc: Registry request: name=Core Worker 6808;pid=6808
+[1480779832] wproc: Registry request: name=Core Worker 6809;pid=6809
+[1480779832] wproc: Registry request: name=Core Worker 6807;pid=6807
+[1480779832] wproc: Registry request: name=Core Worker 6806;pid=6806
+[1480779832] Warning: Duplicate definition found for command 'notify-host-by-email' (config file '/usr/local/nagios/etc/objects/commands.cfg', starting on line 27)
+[1480779832] Error: Could not add object property in file '/usr/local/nagios/etc/objects/commands.cfg' on line 28.
+[1480779832] Bailing out due to one or more errors encountered in the configuration files. Run Nagios from the command line with the -v option to verify your config before restarting. (PID=6805)
+[1480779832] Event broker module 'NERD' deinitialized successfully.
+[1480779955] Nagios 4.1.1 starting... (PID=6922)
+[1480779955] Local time is Sat Dec 03 10:45:55 EST 2016
+[1480779955] LOG VERSION: 2.0
+[1480779955] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480779955] qh: core query handler registered
+[1480779955] nerd: Channel hostchecks registered successfully
+[1480779955] nerd: Channel servicechecks registered successfully
+[1480779955] nerd: Channel opathchecks registered successfully
+[1480779955] nerd: Fully initialized and ready to rock!
+[1480779955] wproc: Successfully registered manager as @wproc with query handler
+[1480779955] wproc: Registry request: name=Core Worker 6926;pid=6926
+[1480779955] wproc: Registry request: name=Core Worker 6925;pid=6925
+[1480779955] wproc: Registry request: name=Core Worker 6924;pid=6924
+[1480779955] wproc: Registry request: name=Core Worker 6923;pid=6923
+[1480779955] Warning: Duplicate definition found for command 'notify-service-by-email' (config file '/usr/local/nagios/etc/objects/commands.cfg', starting on line 33)
+[1480779955] Error: Could not add object property in file '/usr/local/nagios/etc/objects/commands.cfg' on line 34.
+[1480779955] Bailing out due to one or more errors encountered in the configuration files. Run Nagios from the command line with the -v option to verify your config before restarting. (PID=6922)
+[1480779955] Event broker module 'NERD' deinitialized successfully.
+[1480779978] Nagios 4.1.1 starting... (PID=6957)
+[1480779978] Local time is Sat Dec 03 10:46:18 EST 2016
+[1480779978] LOG VERSION: 2.0
+[1480779978] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480779978] qh: core query handler registered
+[1480779978] nerd: Channel hostchecks registered successfully
+[1480779978] nerd: Channel servicechecks registered successfully
+[1480779978] nerd: Channel opathchecks registered successfully
+[1480779978] nerd: Fully initialized and ready to rock!
+[1480779978] wproc: Successfully registered manager as @wproc with query handler
+[1480779978] wproc: Registry request: name=Core Worker 6961;pid=6961
+[1480779978] wproc: Registry request: name=Core Worker 6960;pid=6960
+[1480779978] wproc: Registry request: name=Core Worker 6959;pid=6959
+[1480779978] wproc: Registry request: name=Core Worker 6958;pid=6958
+[1480779978] Warning: Duplicate definition found for command 'check-host-alive' (config file '/usr/local/nagios/etc/objects/commands.cfg', starting on line 55)
+[1480779978] Error: Could not add object property in file '/usr/local/nagios/etc/objects/commands.cfg' on line 56.
+[1480779978] Bailing out due to one or more errors encountered in the configuration files. Run Nagios from the command line with the -v option to verify your config before restarting. (PID=6957)
+[1480779978] Event broker module 'NERD' deinitialized successfully.
+[1480780062] Nagios 4.1.1 starting... (PID=7031)
+[1480780062] Local time is Sat Dec 03 10:47:42 EST 2016
+[1480780062] LOG VERSION: 2.0
+[1480780062] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480780062] qh: core query handler registered
+[1480780062] nerd: Channel hostchecks registered successfully
+[1480780062] nerd: Channel servicechecks registered successfully
+[1480780062] nerd: Channel opathchecks registered successfully
+[1480780062] nerd: Fully initialized and ready to rock!
+[1480780062] wproc: Successfully registered manager as @wproc with query handler
+[1480780062] wproc: Registry request: name=Core Worker 7035;pid=7035
+[1480780062] wproc: Registry request: name=Core Worker 7034;pid=7034
+[1480780062] wproc: Registry request: name=Core Worker 7033;pid=7033
+[1480780062] wproc: Registry request: name=Core Worker 7032;pid=7032
+[1480780062] Error: Service notification command 'notify-service-by-email' specified for contact 'nagiosadmin' is not defined anywhere!
+[1480780062] Error: Host notification command 'notify-host-by-email' specified for contact 'nagiosadmin' is not defined anywhere!
+[1480780062] Bailing out due to errors encountered while running the pre-flight check.  Run Nagios from the command line with the -v option to verify your config before restarting. (PID=7031)
+[1480780062] Event broker module 'NERD' deinitialized successfully.
+[1480780110] Nagios 4.1.1 starting... (PID=7093)
+[1480780110] Local time is Sat Dec 03 10:48:30 EST 2016
+[1480780110] LOG VERSION: 2.0
+[1480780110] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480780110] qh: core query handler registered
+[1480780110] nerd: Channel hostchecks registered successfully
+[1480780110] nerd: Channel servicechecks registered successfully
+[1480780110] nerd: Channel opathchecks registered successfully
+[1480780110] nerd: Fully initialized and ready to rock!
+[1480780110] wproc: Successfully registered manager as @wproc with query handler
+[1480780110] wproc: Registry request: name=Core Worker 7099;pid=7099
+[1480780110] wproc: Registry request: name=Core Worker 7098;pid=7098
+[1480780110] wproc: Registry request: name=Core Worker 7097;pid=7097
+[1480780110] wproc: Registry request: name=Core Worker 7096;pid=7096
+[1480780110] Successfully launched command file worker with pid 7107
+[1480780113] Caught SIGTERM, shutting down...
+[1480780113] Caught SIGTERM, shutting down...
+[1480780113] Successfully shutdown... (PID=7093)
+[1480780113] Event broker module 'NERD' deinitialized successfully.
+[1480780113] Caught SIGTERM, shutting down...
+[1480780113] Nagios 4.1.1 starting... (PID=7124)
+[1480780113] Local time is Sat Dec 03 10:48:33 EST 2016
+[1480780113] LOG VERSION: 2.0
+[1480780113] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480780113] qh: core query handler registered
+[1480780113] nerd: Channel hostchecks registered successfully
+[1480780113] nerd: Channel servicechecks registered successfully
+[1480780113] nerd: Channel opathchecks registered successfully
+[1480780113] nerd: Fully initialized and ready to rock!
+[1480780113] wproc: Successfully registered manager as @wproc with query handler
+[1480780113] wproc: Registry request: name=Core Worker 7128;pid=7128
+[1480780113] wproc: Registry request: name=Core Worker 7125;pid=7125
+[1480780113] wproc: Registry request: name=Core Worker 7126;pid=7126
+[1480780113] wproc: Registry request: name=Core Worker 7127;pid=7127
+[1480780113] Successfully launched command file worker with pid 7129
+[1480780217] Caught SIGTERM, shutting down...
+[1480780217] Caught SIGTERM, shutting down...
+[1480780217] Successfully shutdown... (PID=7124)
+[1480780217] Event broker module 'NERD' deinitialized successfully.
+[1480780217] Caught SIGTERM, shutting down...
+[1480780217] Nagios 4.1.1 starting... (PID=7214)
+[1480780217] Local time is Sat Dec 03 10:50:17 EST 2016
+[1480780217] LOG VERSION: 2.0
+[1480780217] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480780217] qh: core query handler registered
+[1480780217] nerd: Channel hostchecks registered successfully
+[1480780217] nerd: Channel servicechecks registered successfully
+[1480780217] nerd: Channel opathchecks registered successfully
+[1480780217] nerd: Fully initialized and ready to rock!
+[1480780217] wproc: Successfully registered manager as @wproc with query handler
+[1480780217] wproc: Registry request: name=Core Worker 7218;pid=7218
+[1480780217] wproc: Registry request: name=Core Worker 7217;pid=7217
+[1480780217] wproc: Registry request: name=Core Worker 7216;pid=7216
+[1480780217] wproc: Registry request: name=Core Worker 7215;pid=7215
+[1480780217] Successfully launched command file worker with pid 7219
+[1480780534] Caught SIGTERM, shutting down...
+[1480780534] Caught SIGTERM, shutting down...
+[1480780534] Successfully shutdown... (PID=7214)
+[1480780534] Event broker module 'NERD' deinitialized successfully.
+[1480780534] Caught SIGTERM, shutting down...
+[1480780534] Nagios 4.1.1 starting... (PID=7342)
+[1480780534] Local time is Sat Dec 03 10:55:34 EST 2016
+[1480780534] LOG VERSION: 2.0
+[1480780534] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480780534] qh: core query handler registered
+[1480780534] nerd: Channel hostchecks registered successfully
+[1480780534] nerd: Channel servicechecks registered successfully
+[1480780534] nerd: Channel opathchecks registered successfully
+[1480780534] nerd: Fully initialized and ready to rock!
+[1480780534] wproc: Successfully registered manager as @wproc with query handler
+[1480780534] wproc: Registry request: name=Core Worker 7346;pid=7346
+[1480780534] wproc: Registry request: name=Core Worker 7345;pid=7345
+[1480780534] wproc: Registry request: name=Core Worker 7344;pid=7344
+[1480780534] wproc: Registry request: name=Core Worker 7343;pid=7343
+[1480780534] Successfully launched command file worker with pid 7347
+[1480780535] Caught SIGTERM, shutting down...
+[1480780535] Caught SIGTERM, shutting down...
+[1480780535] Successfully shutdown... (PID=7342)
+[1480780535] Event broker module 'NERD' deinitialized successfully.
+[1480780535] Caught SIGTERM, shutting down...
+[1480780535] Nagios 4.1.1 starting... (PID=7354)
+[1480780535] Local time is Sat Dec 03 10:55:35 EST 2016
+[1480780535] LOG VERSION: 2.0
+[1480780535] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480780535] qh: core query handler registered
+[1480780535] nerd: Channel hostchecks registered successfully
+[1480780535] nerd: Channel servicechecks registered successfully
+[1480780535] nerd: Channel opathchecks registered successfully
+[1480780535] nerd: Fully initialized and ready to rock!
+[1480780535] wproc: Successfully registered manager as @wproc with query handler
+[1480780535] wproc: Registry request: name=Core Worker 7358;pid=7358
+[1480780535] wproc: Registry request: name=Core Worker 7357;pid=7357
+[1480780535] wproc: Registry request: name=Core Worker 7356;pid=7356
+[1480780535] wproc: Registry request: name=Core Worker 7355;pid=7355
+[1480780535] Successfully launched command file worker with pid 7359
+[1480780705] Caught SIGTERM, shutting down...
+[1480780705] Caught SIGTERM, shutting down...
+[1480780705] Successfully shutdown... (PID=7354)
+[1480780705] Event broker module 'NERD' deinitialized successfully.
+[1480780705] Caught SIGTERM, shutting down...
+[1480780705] Nagios 4.1.1 starting... (PID=7477)
+[1480780705] Local time is Sat Dec 03 10:58:25 EST 2016
+[1480780705] LOG VERSION: 2.0
+[1480780705] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480780705] qh: core query handler registered
+[1480780705] nerd: Channel hostchecks registered successfully
+[1480780705] nerd: Channel servicechecks registered successfully
+[1480780705] nerd: Channel opathchecks registered successfully
+[1480780705] nerd: Fully initialized and ready to rock!
+[1480780705] wproc: Successfully registered manager as @wproc with query handler
+[1480780705] wproc: Registry request: name=Core Worker 7480;pid=7480
+[1480780705] wproc: Registry request: name=Core Worker 7479;pid=7479
+[1480780705] wproc: Registry request: name=Core Worker 7481;pid=7481
+[1480780705] wproc: Registry request: name=Core Worker 7478;pid=7478
+[1480780705] Successfully launched command file worker with pid 7482
+[1480784304] Auto-save of retention data completed successfully.
+[1480787904] Auto-save of retention data completed successfully.
+[1480791504] Auto-save of retention data completed successfully.
+[1480795104] Auto-save of retention data completed successfully.
+[1480798704] Auto-save of retention data completed successfully.
+[1480802304] Auto-save of retention data completed successfully.
+[1480805904] Auto-save of retention data completed successfully.
+[1480809504] Auto-save of retention data completed successfully.
+[1480813104] Auto-save of retention data completed successfully.
+[1480816704] Auto-save of retention data completed successfully.
+[1480820304] Auto-save of retention data completed successfully.
+[1480822759] Caught SIGTERM, shutting down...
+[1480822759] Caught SIGTERM, shutting down...
+[1480822759] Successfully shutdown... (PID=7477)
+[1480822759] Event broker module 'NERD' deinitialized successfully.
+[1480822759] Caught SIGTERM, shutting down...
+[1480896297] Nagios 4.1.1 starting... (PID=416)
+[1480896297] Local time is Sun Dec 04 19:04:57 EST 2016
+[1480896297] LOG VERSION: 2.0
+[1480896297] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480896297] qh: core query handler registered
+[1480896297] nerd: Channel hostchecks registered successfully
+[1480896297] nerd: Channel servicechecks registered successfully
+[1480896297] nerd: Channel opathchecks registered successfully
+[1480896297] nerd: Fully initialized and ready to rock!
+[1480896297] wproc: Successfully registered manager as @wproc with query handler
+[1480896297] wproc: Registry request: name=Core Worker 448;pid=448
+[1480896297] wproc: Registry request: name=Core Worker 447;pid=447
+[1480896297] wproc: Registry request: name=Core Worker 446;pid=446
+[1480896297] wproc: Registry request: name=Core Worker 445;pid=445
+[1480896297] Successfully launched command file worker with pid 510
+[1480896667] Caught SIGTERM, shutting down...
+[1480896667] Caught SIGTERM, shutting down...
+[1480896667] Successfully shutdown... (PID=416)
+[1480896667] Event broker module 'NERD' deinitialized successfully.
+[1480896667] Caught SIGTERM, shutting down...
+[1480896667] Nagios 4.1.1 starting... (PID=2146)
+[1480896667] Local time is Sun Dec 04 19:11:07 EST 2016
+[1480896667] LOG VERSION: 2.0
+[1480896667] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480896667] qh: core query handler registered
+[1480896667] nerd: Channel hostchecks registered successfully
+[1480896667] nerd: Channel servicechecks registered successfully
+[1480896667] nerd: Channel opathchecks registered successfully
+[1480896667] nerd: Fully initialized and ready to rock!
+[1480896667] wproc: Successfully registered manager as @wproc with query handler
+[1480896667] wproc: Registry request: name=Core Worker 2150;pid=2150
+[1480896667] wproc: Registry request: name=Core Worker 2149;pid=2149
+[1480896667] wproc: Registry request: name=Core Worker 2148;pid=2148
+[1480896667] wproc: Registry request: name=Core Worker 2147;pid=2147
+[1480896667] Error: Service description missing from list 'PING' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting at line 160)
+[1480896667] Error: Could not expand members specified in servicegroup 'Network Services' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting at line 160)
+[1480896667] Bailing out due to one or more errors encountered in the configuration files. Run Nagios from the command line with the -v option to verify your config before restarting. (PID=2146)
+[1480896667] Event broker module 'NERD' deinitialized successfully.
+[1480896786] Nagios 4.1.1 starting... (PID=2186)
+[1480896786] Local time is Sun Dec 04 19:13:06 EST 2016
+[1480896786] LOG VERSION: 2.0
+[1480896786] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480896786] qh: core query handler registered
+[1480896786] nerd: Channel hostchecks registered successfully
+[1480896786] nerd: Channel servicechecks registered successfully
+[1480896786] nerd: Channel opathchecks registered successfully
+[1480896786] nerd: Fully initialized and ready to rock!
+[1480896786] wproc: Successfully registered manager as @wproc with query handler
+[1480896786] wproc: Registry request: name=Core Worker 2190;pid=2190
+[1480896786] wproc: Registry request: name=Core Worker 2189;pid=2189
+[1480896786] wproc: Registry request: name=Core Worker 2188;pid=2188
+[1480896786] wproc: Registry request: name=Core Worker 2187;pid=2187
+[1480896786] Error: Service description missing from list 'locahost' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting at line 160)
+[1480896786] Error: Could not expand members specified in servicegroup 'Network Services' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting at line 160)
+[1480896786] Bailing out due to one or more errors encountered in the configuration files. Run Nagios from the command line with the -v option to verify your config before restarting. (PID=2186)
+[1480896786] Event broker module 'NERD' deinitialized successfully.
+[1480896803] Nagios 4.1.1 starting... (PID=2241)
+[1480896803] Local time is Sun Dec 04 19:13:23 EST 2016
+[1480896803] LOG VERSION: 2.0
+[1480896803] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480896803] qh: core query handler registered
+[1480896803] nerd: Channel hostchecks registered successfully
+[1480896803] nerd: Channel servicechecks registered successfully
+[1480896803] nerd: Channel opathchecks registered successfully
+[1480896803] nerd: Fully initialized and ready to rock!
+[1480896803] wproc: Successfully registered manager as @wproc with query handler
+[1480896803] wproc: Registry request: name=Core Worker 2245;pid=2245
+[1480896803] wproc: Registry request: name=Core Worker 2244;pid=2244
+[1480896803] wproc: Registry request: name=Core Worker 2243;pid=2243
+[1480896803] wproc: Registry request: name=Core Worker 2242;pid=2242
+[1480896803] Error: Service description missing from list 'localhost' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting at line 160)
+[1480896803] Error: Could not expand members specified in servicegroup 'Network Services' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting at line 160)
+[1480896803] Bailing out due to one or more errors encountered in the configuration files. Run Nagios from the command line with the -v option to verify your config before restarting. (PID=2241)
+[1480896803] Event broker module 'NERD' deinitialized successfully.
+[1480896855] Nagios 4.1.1 starting... (PID=2296)
+[1480896855] Local time is Sun Dec 04 19:14:15 EST 2016
+[1480896855] LOG VERSION: 2.0
+[1480896855] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480896855] qh: core query handler registered
+[1480896855] nerd: Channel hostchecks registered successfully
+[1480896855] nerd: Channel servicechecks registered successfully
+[1480896855] nerd: Channel opathchecks registered successfully
+[1480896855] nerd: Fully initialized and ready to rock!
+[1480896855] wproc: Successfully registered manager as @wproc with query handler
+[1480896855] wproc: Registry request: name=Core Worker 2300;pid=2300
+[1480896855] wproc: Registry request: name=Core Worker 2299;pid=2299
+[1480896855] wproc: Registry request: name=Core Worker 2298;pid=2298
+[1480896855] wproc: Registry request: name=Core Worker 2297;pid=2297
+[1480896855] Error: Service description missing from list '' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting at line 160)
+[1480896855] Error: Could not expand members specified in servicegroup 'Network Services' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting at line 160)
+[1480896855] Bailing out due to one or more errors encountered in the configuration files. Run Nagios from the command line with the -v option to verify your config before restarting. (PID=2296)
+[1480896855] Event broker module 'NERD' deinitialized successfully.
+[1480896946] Nagios 4.1.1 starting... (PID=2336)
+[1480896946] Local time is Sun Dec 04 19:15:46 EST 2016
+[1480896946] LOG VERSION: 2.0
+[1480896946] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480896946] qh: core query handler registered
+[1480896946] nerd: Channel hostchecks registered successfully
+[1480896946] nerd: Channel servicechecks registered successfully
+[1480896946] nerd: Channel opathchecks registered successfully
+[1480896946] nerd: Fully initialized and ready to rock!
+[1480896946] wproc: Successfully registered manager as @wproc with query handler
+[1480896946] wproc: Registry request: name=Core Worker 2339;pid=2339
+[1480896946] wproc: Registry request: name=Core Worker 2340;pid=2340
+[1480896946] wproc: Registry request: name=Core Worker 2338;pid=2338
+[1480896946] wproc: Registry request: name=Core Worker 2337;pid=2337
+[1480896946] Successfully launched command file worker with pid 2341
+[1480897205] Caught SIGTERM, shutting down...
+[1480897205] Caught SIGTERM, shutting down...
+[1480897205] Successfully shutdown... (PID=2336)
+[1480897205] Event broker module 'NERD' deinitialized successfully.
+[1480897205] Caught SIGTERM, shutting down...
+[1480897205] Nagios 4.1.1 starting... (PID=2523)
+[1480897205] Local time is Sun Dec 04 19:20:05 EST 2016
+[1480897205] LOG VERSION: 2.0
+[1480897205] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480897205] qh: core query handler registered
+[1480897205] nerd: Channel hostchecks registered successfully
+[1480897205] nerd: Channel servicechecks registered successfully
+[1480897205] nerd: Channel opathchecks registered successfully
+[1480897205] nerd: Fully initialized and ready to rock!
+[1480897205] wproc: Successfully registered manager as @wproc with query handler
+[1480897205] wproc: Registry request: name=Core Worker 2527;pid=2527
+[1480897205] wproc: Registry request: name=Core Worker 2526;pid=2526
+[1480897205] wproc: Registry request: name=Core Worker 2525;pid=2525
+[1480897205] wproc: Registry request: name=Core Worker 2524;pid=2524
+[1480897205] Successfully launched command file worker with pid 2528
+[1480897338] Caught SIGTERM, shutting down...
+[1480897338] Caught SIGTERM, shutting down...
+[1480897338] Successfully shutdown... (PID=2523)
+[1480897338] Event broker module 'NERD' deinitialized successfully.
+[1480897338] Caught SIGTERM, shutting down...
+[1480897338] Nagios 4.1.1 starting... (PID=2666)
+[1480897338] Local time is Sun Dec 04 19:22:18 EST 2016
+[1480897338] LOG VERSION: 2.0
+[1480897338] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480897338] qh: core query handler registered
+[1480897338] nerd: Channel hostchecks registered successfully
+[1480897338] nerd: Channel servicechecks registered successfully
+[1480897338] nerd: Channel opathchecks registered successfully
+[1480897338] nerd: Fully initialized and ready to rock!
+[1480897338] wproc: Successfully registered manager as @wproc with query handler
+[1480897338] wproc: Registry request: name=Core Worker 2670;pid=2670
+[1480897338] wproc: Registry request: name=Core Worker 2669;pid=2669
+[1480897338] wproc: Registry request: name=Core Worker 2668;pid=2668
+[1480897338] wproc: Registry request: name=Core Worker 2667;pid=2667
+[1480897338] Successfully launched command file worker with pid 2671
+[1480897386] Caught SIGTERM, shutting down...
+[1480897386] Caught SIGTERM, shutting down...
+[1480897386] Successfully shutdown... (PID=2666)
+[1480897386] Event broker module 'NERD' deinitialized successfully.
+[1480897386] Caught SIGTERM, shutting down...
+[1480897386] Nagios 4.1.1 starting... (PID=2799)
+[1480897386] Local time is Sun Dec 04 19:23:06 EST 2016
+[1480897386] LOG VERSION: 2.0
+[1480897386] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480897386] qh: core query handler registered
+[1480897386] nerd: Channel hostchecks registered successfully
+[1480897386] nerd: Channel servicechecks registered successfully
+[1480897386] nerd: Channel opathchecks registered successfully
+[1480897386] nerd: Fully initialized and ready to rock!
+[1480897386] wproc: Successfully registered manager as @wproc with query handler
+[1480897386] wproc: Registry request: name=Core Worker 2803;pid=2803
+[1480897386] wproc: Registry request: name=Core Worker 2802;pid=2802
+[1480897386] wproc: Registry request: name=Core Worker 2801;pid=2801
+[1480897386] wproc: Registry request: name=Core Worker 2800;pid=2800
+[1480897386] Successfully launched command file worker with pid 2804
+[1480897419] SERVICE ALERT: localhost;Bandwidth Used;UNKNOWN;SOFT;1;(No output on stdout) stderr:
+[1480897479] SERVICE ALERT: localhost;Bandwidth Used;UNKNOWN;SOFT;2;(No output on stdout) stderr:
+[1480897539] SERVICE ALERT: localhost;Bandwidth Used;UNKNOWN;SOFT;3;(No output on stdout) stderr:
+[1480897599] SERVICE ALERT: localhost;Bandwidth Used;UNKNOWN;HARD;4;(No output on stdout) stderr:
+[1480897966] Caught SIGTERM, shutting down...
+[1480897966] Caught SIGTERM, shutting down...
+[1480897966] Successfully shutdown... (PID=2799)
+[1480897966] Event broker module 'NERD' deinitialized successfully.
+[1480897966] Caught SIGTERM, shutting down...
+[1480897966] Nagios 4.1.1 starting... (PID=3043)
+[1480897966] Local time is Sun Dec 04 19:32:46 EST 2016
+[1480897966] LOG VERSION: 2.0
+[1480897966] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480897966] qh: core query handler registered
+[1480897966] nerd: Channel hostchecks registered successfully
+[1480897966] nerd: Channel servicechecks registered successfully
+[1480897966] nerd: Channel opathchecks registered successfully
+[1480897966] nerd: Fully initialized and ready to rock!
+[1480897966] wproc: Successfully registered manager as @wproc with query handler
+[1480897966] wproc: Registry request: name=Core Worker 3047;pid=3047
+[1480897966] wproc: Registry request: name=Core Worker 3046;pid=3046
+[1480897966] wproc: Registry request: name=Core Worker 3045;pid=3045
+[1480897966] wproc: Registry request: name=Core Worker 3044;pid=3044
+[1480897966] Successfully launched command file worker with pid 3048
+[1480897987] Caught SIGTERM, shutting down...
+[1480897987] Caught SIGTERM, shutting down...
+[1480897987] Successfully shutdown... (PID=3043)
+[1480897987] Event broker module 'NERD' deinitialized successfully.
+[1480897987] Caught SIGTERM, shutting down...
+[1480897987] Nagios 4.1.1 starting... (PID=3157)
+[1480897987] Local time is Sun Dec 04 19:33:07 EST 2016
+[1480897987] LOG VERSION: 2.0
+[1480897987] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480897987] qh: core query handler registered
+[1480897987] nerd: Channel hostchecks registered successfully
+[1480897987] nerd: Channel servicechecks registered successfully
+[1480897987] nerd: Channel opathchecks registered successfully
+[1480897987] nerd: Fully initialized and ready to rock!
+[1480897987] wproc: Successfully registered manager as @wproc with query handler
+[1480897987] wproc: Registry request: name=Core Worker 3161;pid=3161
+[1480897987] wproc: Registry request: name=Core Worker 3160;pid=3160
+[1480897987] wproc: Registry request: name=Core Worker 3159;pid=3159
+[1480897987] wproc: Registry request: name=Core Worker 3158;pid=3158
+[1480897987] Successfully launched command file worker with pid 3162
+[1480898009] Caught SIGTERM, shutting down...
+[1480898009] Caught SIGTERM, shutting down...
+[1480898009] Successfully shutdown... (PID=3157)
+[1480898009] Event broker module 'NERD' deinitialized successfully.
+[1480898009] Caught SIGTERM, shutting down...
+[1480898016] Nagios 4.1.1 starting... (PID=3193)
+[1480898016] Local time is Sun Dec 04 19:33:36 EST 2016
+[1480898016] LOG VERSION: 2.0
+[1480898016] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480898016] qh: core query handler registered
+[1480898016] nerd: Channel hostchecks registered successfully
+[1480898016] nerd: Channel servicechecks registered successfully
+[1480898016] nerd: Channel opathchecks registered successfully
+[1480898016] nerd: Fully initialized and ready to rock!
+[1480898016] wproc: Successfully registered manager as @wproc with query handler
+[1480898016] wproc: Registry request: name=Core Worker 3197;pid=3197
+[1480898016] wproc: Registry request: name=Core Worker 3196;pid=3196
+[1480898016] wproc: Registry request: name=Core Worker 3195;pid=3195
+[1480898016] wproc: Registry request: name=Core Worker 3194;pid=3194
+[1480898016] Successfully launched command file worker with pid 3198
+[1480898101] Caught SIGTERM, shutting down...
+[1480898101] Caught SIGTERM, shutting down...
+[1480898101] Successfully shutdown... (PID=3193)
+[1480898101] Event broker module 'NERD' deinitialized successfully.
+[1480898101] Caught SIGTERM, shutting down...
+[1480898101] Nagios 4.1.1 starting... (PID=3216)
+[1480898101] Local time is Sun Dec 04 19:35:01 EST 2016
+[1480898101] LOG VERSION: 2.0
+[1480898101] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480898101] qh: core query handler registered
+[1480898101] nerd: Channel hostchecks registered successfully
+[1480898101] nerd: Channel servicechecks registered successfully
+[1480898101] nerd: Channel opathchecks registered successfully
+[1480898101] nerd: Fully initialized and ready to rock!
+[1480898101] wproc: Successfully registered manager as @wproc with query handler
+[1480898101] wproc: Registry request: name=Core Worker 3220;pid=3220
+[1480898101] wproc: Registry request: name=Core Worker 3219;pid=3219
+[1480898101] wproc: Registry request: name=Core Worker 3218;pid=3218
+[1480898101] wproc: Registry request: name=Core Worker 3217;pid=3217
+[1480898101] Successfully launched command file worker with pid 3221
+[1480898166] Caught SIGTERM, shutting down...
+[1480898166] Caught SIGTERM, shutting down...
+[1480898166] Successfully shutdown... (PID=3216)
+[1480898166] Event broker module 'NERD' deinitialized successfully.
+[1480898166] Caught SIGTERM, shutting down...
+[1480898166] Nagios 4.1.1 starting... (PID=3246)
+[1480898166] Local time is Sun Dec 04 19:36:06 EST 2016
+[1480898166] LOG VERSION: 2.0
+[1480898166] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480898166] qh: core query handler registered
+[1480898166] nerd: Channel hostchecks registered successfully
+[1480898166] nerd: Channel servicechecks registered successfully
+[1480898166] nerd: Channel opathchecks registered successfully
+[1480898166] nerd: Fully initialized and ready to rock!
+[1480898166] wproc: Successfully registered manager as @wproc with query handler
+[1480898166] wproc: Registry request: name=Core Worker 3249;pid=3249
+[1480898166] wproc: Registry request: name=Core Worker 3250;pid=3250
+[1480898166] wproc: Registry request: name=Core Worker 3248;pid=3248
+[1480898166] wproc: Registry request: name=Core Worker 3247;pid=3247
+[1480898166] Successfully launched command file worker with pid 3251
+[1480898199] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;HARD;4;RX Bytes:  1MB, TX Bytes:  1MB: RX Speed: 257Bps, TX Speed: 257Bps: CRITICAL bandwidth utilization
+[1480898286] Caught SIGTERM, shutting down...
+[1480898286] Caught SIGTERM, shutting down...
+[1480898286] Successfully shutdown... (PID=3246)
+[1480898286] Event broker module 'NERD' deinitialized successfully.
+[1480898286] Caught SIGTERM, shutting down...
+[1480898286] Nagios 4.1.1 starting... (PID=3283)
+[1480898286] Local time is Sun Dec 04 19:38:06 EST 2016
+[1480898286] LOG VERSION: 2.0
+[1480898286] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1480898286] qh: core query handler registered
+[1480898286] nerd: Channel hostchecks registered successfully
+[1480898286] nerd: Channel servicechecks registered successfully
+[1480898286] nerd: Channel opathchecks registered successfully
+[1480898286] nerd: Fully initialized and ready to rock!
+[1480898286] wproc: Successfully registered manager as @wproc with query handler
+[1480898286] wproc: Registry request: name=Core Worker 3287;pid=3287
+[1480898286] wproc: Registry request: name=Core Worker 3286;pid=3286
+[1480898286] wproc: Registry request: name=Core Worker 3285;pid=3285
+[1480898286] wproc: Registry request: name=Core Worker 3284;pid=3284
+[1480898286] Successfully launched command file worker with pid 3288
+[1480900353] Caught SIGTERM, shutting down...
+[1480900353] Caught SIGTERM, shutting down...
+[1480900353] Successfully shutdown... (PID=3283)
+[1480900353] Event broker module 'NERD' deinitialized successfully.
+[1480900353] Caught SIGTERM, shutting down...
+[1481053392] Nagios 4.1.1 starting... (PID=418)
+[1481053392] Local time is Tue Dec 06 14:43:12 EST 2016
+[1481053392] LOG VERSION: 2.0
+[1481053392] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1481053392] qh: core query handler registered
+[1481053392] nerd: Channel hostchecks registered successfully
+[1481053392] nerd: Channel servicechecks registered successfully
+[1481053392] nerd: Channel opathchecks registered successfully
+[1481053392] nerd: Fully initialized and ready to rock!
+[1481053392] wproc: Successfully registered manager as @wproc with query handler
+[1481053392] wproc: Registry request: name=Core Worker 452;pid=452
+[1481053392] wproc: Registry request: name=Core Worker 450;pid=450
+[1481053392] wproc: Registry request: name=Core Worker 451;pid=451
+[1481053392] wproc: Registry request: name=Core Worker 449;pid=449
+[1481053393] Successfully launched command file worker with pid 537
+[1481053425] SERVICE ALERT: localhost;Bandwidth Used;OK;HARD;4;RX Bytes: 29KB, TX Bytes: 11KB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1481053725] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 70KB, TX Bytes: 38KB: RX Speed: 138Bps, TX Speed: 92Bps: CRITICAL bandwidth utilization
+[1481053785] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 70KB, TX Bytes: 38KB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1481056991] Auto-save of retention data completed successfully.
+[1481057642] Caught SIGTERM, shutting down...
+[1481057642] Caught SIGTERM, shutting down...
+[1481057642] Successfully shutdown... (PID=418)
+[1481057642] Event broker module 'NERD' deinitialized successfully.
+[1481057642] Caught SIGTERM, shutting down...
+[1481654235] Nagios 4.1.1 starting... (PID=414)
+[1481654235] Local time is Tue Dec 13 13:37:15 EST 2016
+[1481654235] LOG VERSION: 2.0
+[1481654235] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1481654235] qh: core query handler registered
+[1481654235] nerd: Channel hostchecks registered successfully
+[1481654235] nerd: Channel servicechecks registered successfully
+[1481654235] nerd: Channel opathchecks registered successfully
+[1481654235] nerd: Fully initialized and ready to rock!
+[1481654235] wproc: Successfully registered manager as @wproc with query handler
+[1481654235] wproc: Registry request: name=Core Worker 446;pid=446
+[1481654235] wproc: Registry request: name=Core Worker 445;pid=445
+[1481654235] wproc: Registry request: name=Core Worker 444;pid=444
+[1481654235] wproc: Registry request: name=Core Worker 443;pid=443
+[1481654235] Successfully launched command file worker with pid 491
+[1481654568] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 42KB, TX Bytes: 37KB: RX Speed: 139Bps, TX Speed: 93Bps: CRITICAL bandwidth utilization
+[1481654628] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 42KB, TX Bytes: 37KB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1481656978] Caught SIGTERM, shutting down...
+[1481656978] Caught SIGTERM, shutting down...
+[1481656978] Successfully shutdown... (PID=414)
+[1481656978] Event broker module 'NERD' deinitialized successfully.
+[1481656978] Caught SIGTERM, shutting down...
+[1482064142] Nagios 4.1.1 starting... (PID=418)
+[1482064142] Local time is Sun Dec 18 07:29:02 EST 2016
+[1482064142] LOG VERSION: 2.0
+[1482064142] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1482064142] qh: core query handler registered
+[1482064142] nerd: Channel hostchecks registered successfully
+[1482064142] nerd: Channel servicechecks registered successfully
+[1482064142] nerd: Channel opathchecks registered successfully
+[1482064142] nerd: Fully initialized and ready to rock!
+[1482064142] wproc: Successfully registered manager as @wproc with query handler
+[1482064142] wproc: Registry request: name=Core Worker 454;pid=454
+[1482064142] wproc: Registry request: name=Core Worker 453;pid=453
+[1482064142] wproc: Registry request: name=Core Worker 452;pid=452
+[1482064142] wproc: Registry request: name=Core Worker 451;pid=451
+[1482064142] Successfully launched command file worker with pid 530
+[1482064475] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 42KB, TX Bytes: 35KB: RX Speed: 139Bps, TX Speed: 91Bps: CRITICAL bandwidth utilization
+[1482064535] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 42KB, TX Bytes: 35KB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1482064835] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 42KB, TX Bytes: 39KB: RX Speed: 0Bps, TX Speed: 14Bps: CRITICAL bandwidth utilization
+[1482064895] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 42KB, TX Bytes: 39KB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1482065795] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes:  2MB, TX Bytes: 136KB: RX Speed:  8KBps, TX Speed: 332Bps: CRITICAL bandwidth utilization
+[1482065855] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;2;RX Bytes:  3MB, TX Bytes: 186KB: RX Speed: 15KBps, TX Speed: 826Bps: CRITICAL bandwidth utilization
+[1482065915] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;3;RX Bytes:  4MB, TX Bytes: 266KB: RX Speed: 10KBps, TX Speed:  1KBps: CRITICAL bandwidth utilization
+[1482065975] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;HARD;4;RX Bytes:  5MB, TX Bytes: 367KB: RX Speed: 22KBps, TX Speed:  2KBps: CRITICAL bandwidth utilization
+[1482067741] Auto-save of retention data completed successfully.
+[1482070175] SERVICE ALERT: localhost;Bandwidth Used;OK;HARD;4;RX Bytes: 44MB, TX Bytes:  9MB: RX Speed:  2Bps, TX Speed:  2Bps: OK bandwidth utilization
+[1482070475] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 51MB, TX Bytes:  9MB: RX Speed: 24KBps, TX Speed:  2KBps: CRITICAL bandwidth utilization
+[1482070507] SERVICE ALERT: localhost;CPU Load;WARNING;SOFT;1;WARNING - load average: 6.47, 3.03, 1.56
+[1482070535] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;2;RX Bytes: 52MB, TX Bytes:  9MB: RX Speed:  2KBps, TX Speed:  1KBps: CRITICAL bandwidth utilization
+[1482070567] SERVICE ALERT: localhost;CPU Load;OK;SOFT;2;OK - load average: 3.61, 2.91, 1.62
+[1482070595] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;3;RX Bytes: 52MB, TX Bytes:  9MB: RX Speed:  5KBps, TX Speed:  1KBps: CRITICAL bandwidth utilization
+[1482070655] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;HARD;4;RX Bytes: 52MB, TX Bytes:  9MB: RX Speed: 82Bps, TX Speed: 74Bps: CRITICAL bandwidth utilization
+[1482071341] Auto-save of retention data completed successfully.
+[1482072155] SERVICE ALERT: localhost;Bandwidth Used;OK;HARD;4;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  3Bps, TX Speed:  2Bps: OK bandwidth utilization
+[1482073055] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 105Bps, TX Speed: 131Bps: CRITICAL bandwidth utilization
+[1482073115] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  4Bps, TX Speed:  2Bps: OK bandwidth utilization
+[1482074015] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 26Bps, TX Speed: 50Bps: CRITICAL bandwidth utilization
+[1482074075] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  3Bps, TX Speed:  3Bps: OK bandwidth utilization
+[1482074941] Auto-save of retention data completed successfully.
+[1482074975] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 90Bps, TX Speed: 114Bps: CRITICAL bandwidth utilization
+[1482075035] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1482076235] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  5Bps, TX Speed: 25Bps: CRITICAL bandwidth utilization
+[1482076295] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1482076595] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 56Bps, TX Speed: 126Bps: CRITICAL bandwidth utilization
+[1482076655] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  6Bps, TX Speed:  6Bps: OK bandwidth utilization
+[1482078541] Auto-save of retention data completed successfully.
+[1482078752] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 60Bps, TX Speed: 135Bps: CRITICAL bandwidth utilization
+[1482078812] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1482080012] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 16Bps, TX Speed:  6Bps: CRITICAL bandwidth utilization
+[1482080072] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  9Bps, TX Speed:  9Bps: CRITICAL bandwidth utilization
+[1482080132] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;3;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1482080432] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 82Bps, TX Speed: 119Bps: CRITICAL bandwidth utilization
+[1482080492] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1482081992] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 44Bps, TX Speed: 110Bps: CRITICAL bandwidth utilization
+[1482082052] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 18Bps, TX Speed: 19Bps: CRITICAL bandwidth utilization
+[1482082112] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;3;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 13Bps, TX Speed: 116Bps: CRITICAL bandwidth utilization
+[1482082141] Auto-save of retention data completed successfully.
+[1482082172] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;4;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1482083672] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 98Bps, TX Speed: 122Bps: CRITICAL bandwidth utilization
+[1482083732] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 14Bps, TX Speed: 14Bps: CRITICAL bandwidth utilization
+[1482083792] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;3;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1482085292] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 48Bps, TX Speed: 113Bps: CRITICAL bandwidth utilization
+[1482085352] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  5Bps, TX Speed:  5Bps: OK bandwidth utilization
+[1482085741] Auto-save of retention data completed successfully.
+[1482087152] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 31Bps, TX Speed: 114Bps: CRITICAL bandwidth utilization
+[1482087212] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 92Bps, TX Speed: 43Bps: CRITICAL bandwidth utilization
+[1482087272] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;3;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  9Bps, TX Speed:  9Bps: CRITICAL bandwidth utilization
+[1482087332] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;4;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1482088832] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 42Bps, TX Speed: 108Bps: CRITICAL bandwidth utilization
+[1482088892] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  5Bps, TX Speed:  5Bps: OK bandwidth utilization
+[1482089341] Auto-save of retention data completed successfully.
+[1482089792] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  3Bps, TX Speed: 24Bps: CRITICAL bandwidth utilization
+[1482089852] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  5Bps, TX Speed:  5Bps: OK bandwidth utilization
+[1482090452] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  6Bps, TX Speed: 26Bps: CRITICAL bandwidth utilization
+[1482090512] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1482090812] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 128Bps, TX Speed: 121Bps: CRITICAL bandwidth utilization
+[1482090872] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 19Bps, TX Speed: 21Bps: CRITICAL bandwidth utilization
+[1482090932] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;3;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1482091532] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  5Bps, TX Speed: 33Bps: CRITICAL bandwidth utilization
+[1482091592] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  8KBps, TX Speed:  2KBps: CRITICAL bandwidth utilization
+[1482091652] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;3;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 227Bps, TX Speed: 195Bps: CRITICAL bandwidth utilization
+[1482091712] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;HARD;4;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 133Bps, TX Speed: 164Bps: CRITICAL bandwidth utilization
+[1482092312] SERVICE ALERT: localhost;Bandwidth Used;OK;HARD;4;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  1Bps, TX Speed:  1Bps: OK bandwidth utilization
+[1482092612] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 99Bps, TX Speed: 116Bps: CRITICAL bandwidth utilization
+[1482092672] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  5Bps, TX Speed:  5Bps: OK bandwidth utilization
+[1482092941] Auto-save of retention data completed successfully.
+[1482092972] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed: 30Bps, TX Speed: 22Bps: CRITICAL bandwidth utilization
+[1482093032] SERVICE ALERT: localhost;Bandwidth Used;OK;SOFT;2;RX Bytes: 55MB, TX Bytes: 10MB: RX Speed:  3Bps, TX Speed:  3Bps: OK bandwidth utilization
+[1482093332] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;1;RX Bytes: 57MB, TX Bytes: 11MB: RX Speed:  6KBps, TX Speed: 894Bps: CRITICAL bandwidth utilization
+[1482093392] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;2;RX Bytes: 57MB, TX Bytes: 11MB: RX Speed: 263Bps, TX Speed: 145Bps: CRITICAL bandwidth utilization
+[1482093452] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;SOFT;3;RX Bytes: 57MB, TX Bytes: 11MB: RX Speed: 270Bps, TX Speed: 182Bps: CRITICAL bandwidth utilization
+[1482093512] SERVICE ALERT: localhost;Bandwidth Used;CRITICAL;HARD;4;RX Bytes: 57MB, TX Bytes: 11MB: RX Speed: 263Bps, TX Speed: 161Bps: CRITICAL bandwidth utilization
+[1482096541] Auto-save of retention data completed successfully.
+[1482100141] Auto-save of retention data completed successfully.
+[1482103741] Auto-save of retention data completed successfully.
